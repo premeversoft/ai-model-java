@@ -3,7 +3,7 @@ import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || '/openai/api/chat';
+
 const API_URL_WITH_ROLES = '/openai/api/chat-with-roles';
 const API_URL_TEMPLATES = '/openai/api/prompt-templates';
 const API_URL_ADVANCED = '/openai/api/chat-advanced';
